@@ -283,7 +283,7 @@ class _PumpSimulationScreenState extends State<PumpSimulationScreen> {
             )),
           ],
 
-          const SizedBox(height: 32),
+          const SizedBox(height: 40),
         ],
       ),
     );

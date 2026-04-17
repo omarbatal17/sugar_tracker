@@ -157,6 +157,7 @@ class ReadingDetailsScreen extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 40),
         ],
       ),
     );

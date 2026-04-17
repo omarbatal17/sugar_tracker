@@ -50,12 +50,12 @@ class StatusColors {
 class AppColors {
   // ── Light Palette ──
   static const light = AppPalette(
-    background: Color.fromRGBO(245, 247, 251, 1),
+    background: Color(0xFFF5F7FB),
     card: Color(0xFFFFFFFF),
-    primary: Color.fromRGBO(0, 61, 155, 1),
+    primary: Color(0xFF003D9B),
     primaryForeground: Color(0xFFFFFFFF),
     primaryContainer: Color(0xFFDBEAFE),
-    secondary: Color.fromRGBO(0, 74, 173, 1),
+    secondary: Color(0xFF004AAD),
     muted: Color(0xFFF1F5F9),
     mutedForeground: Color(0xFF94A3B8),
     surfaceInput: Color(0xFFF1F5F9),
@@ -63,7 +63,7 @@ class AppColors {
     border: Color(0xFFE2E8F0),
     destructive: Color(0xFFEF4444),
     shadow: Color(0x1A000000),
-    headerBackground: Color.fromRGBO(0, 61, 155, 1),
+    headerBackground: Color(0xFF003D9B),
     tabBar: Color(0xFFFFFFFF),
     text: Color(0xFF0F172A),
     textSecondary: Color(0xFF64748B),
@@ -95,7 +95,7 @@ class AppColors {
     foreground: Color(0xFFEF4444),
     background: Color(0xFFFEE2E2),
   );
-  // Low in screenshots is an orange/yellow
+  
   static const lowDark = StatusColors(
     foreground: Color(0xFFFFB96D),
     background: Color(0xFF4C2F15),
@@ -105,7 +105,7 @@ class AppColors {
     foreground: Color(0xFF22C55E),
     background: Color(0xFFDCFCE7),
   );
-  // Normal in screenshots is mint green
+  
   static const normalDark = StatusColors(
     foreground: Color(0xFF6CE3A0),
     background: Color(0xFF1A3D2C),
@@ -115,7 +115,7 @@ class AppColors {
     foreground: Color(0xFFF59E0B),
     background: Color(0xFFFEF3C7),
   );
-  // High in screenshots is a soft red
+  
   static const highDark = StatusColors(
     foreground: Color(0xFFFF8A8A),
     background: Color(0xFF4D1F1C),
@@ -140,5 +140,6 @@ class AppColors {
   static const double inputHeight = 52.0;
   static const double rangeBarHeight = 6.0;
   static const double screenHorizontalPadding = 16.0;
+  static const double bottomScreenPadding = 100.0;
   static const double sectionGap = 14.0;
 }

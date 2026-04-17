@@ -89,7 +89,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
                     description: tr.t('noReadingsDesc'),
                   )
                 : ListView.builder(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                      right: 16,
+                      bottom: AppColors.bottomScreenPadding,
+                    ),
                     itemCount: filtered.length,
                     itemBuilder: (context, index) {
                       final reading = filtered[index];

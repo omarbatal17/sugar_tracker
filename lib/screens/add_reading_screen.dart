@@ -230,7 +230,7 @@ class _AddReadingScreenState extends State<AddReadingScreen> {
               ),
             ),
 
-            const SizedBox(height: 16),
+            const SizedBox(height: 40),
           ],
         ),
       ),

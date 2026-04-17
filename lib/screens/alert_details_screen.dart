@@ -166,6 +166,7 @@ class AlertDetailsScreen extends StatelessWidget {
               ),
             ),
           ],
+          const SizedBox(height: 40),
         ],
       ),
     );

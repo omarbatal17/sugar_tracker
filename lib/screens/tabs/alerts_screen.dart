@@ -60,7 +60,12 @@ class AlertsScreen extends StatelessWidget {
               description: tr.t('noAlertsDesc'),
             )
           : ListView.builder(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.only(
+                left: 16,
+                right: 16,
+                top: 16,
+                bottom: AppColors.bottomScreenPadding,
+              ),
               itemCount: appState.alerts.length,
               itemBuilder: (context, index) {
                 final alert = appState.alerts[index];
